@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografador/Descriptografador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Criptografador/Descriptografador de Texto</h1>
+        <form id="cryptoForm">
+            <label for="inputText">Texto:</label>
+            <textarea id="inputText" rows="4" placeholder="Insira o texto aqui..." required></textarea>
+            
+            <div class="buttons">
+                <button type="button" id="encryptBtn">Criptografar</button>
+                <button type="button" id="decryptBtn">Descriptografar</button>
+            </div>
+            
+            <label for="outputText">Resultado:</label>
+            <textarea id="outputText" rows="4" readonly placeholder="O resultado aparecerá aqui..."></textarea>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
